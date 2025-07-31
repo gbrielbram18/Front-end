@@ -47,27 +47,26 @@ fieldset{
 }
 
 
-
-
-
-
 header{
-max-width: 80rem;
-    width: 100%;
-    padding: 1.25rem 2rem;
-    margin: 0 auto;
+    max-width: 80rem;
+    padding: 2.5rem;
+    margin: 15px auto;
+    background-color:coral;
     
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 2px solid black;
+
+    
 }
 
 
-nav ul {
-color: #333;
-   text-decoration: none;
-   border-bottom: 2px solid transparent;
-   display: flex;
-       gap: 2rem;
- 
+header nav ul {
+    color: #333;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    display: flex;
+    gap: 2rem;
+      
 }
