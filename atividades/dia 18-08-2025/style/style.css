@@ -1,0 +1,15 @@
+header{
+    font-size: 25px;
+}
+
+
+code{
+    background: #fff;
+    padding: .3em 0.5em ;
+}
+
+main{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
