@@ -1,0 +1,39 @@
+table {
+    width: 100%;
+    border-color: black;
+    border-width: 2px;
+    border: 1px solid black;
+}
+
+table tr td {
+    text-align: center;
+    font-size: 25px;
+}
+
+table th {
+    background:grey;    
+    color: #f0f0f0;
+    height: 30px;
+    font-size: 25px;
+}
+
+table tr:nth-child(even){
+    background-color: brown;
+    color: #fff;
+}
+
+
+div{
+
+    border: 1px  solid black;
+    padding: 15px;
+    background-color: white;
+
+}
+
+body{
+    background: gray;
+    padding: 20px 10rem 20px 10rem;
+
+}
+
