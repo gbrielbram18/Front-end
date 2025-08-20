@@ -1,0 +1,44 @@
+body{
+     background-image: url(../img/unnamed-file.jpg);
+     background-repeat: no-repeat;
+     background-size: 160em;
+    
+    
+    padding-left: 10%;
+    padding-right: 10%;
+
+
+}
+
+
+.fundo{
+    background: white;
+    font-size: 30px;
+    padding-left: 0.5%;
+    
+}
+
+input, select, textarea, button {
+    
+  padding: 8px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+label{  
+    display: flex;
+}
+ 
+
+h1,h2 ,h3, h4, h5, h6, p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.box{
+    padding: 10px;
+}

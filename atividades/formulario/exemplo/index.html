@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+
+
+
+<form action="/destino" method="post">
+  <!-- elementos do formulário aqui -->
+</form>
+
+
+    <input type="text" name="nome" placeholder="Digite seu nome">
+
+
+
+    <input type="password" name="senha" placeholder="Digite sua senha">
+
+    <input type="email" name="email">
+
+    <input type="number" name="idade" min="1" max="120">
+
+    <input type="date" name="nascimento">   
+
+    <label>
+  <input type="checkbox" name="newsletter"> Quero receber novidades
+</label>
+
+
+<label><input type="radio" name="cargo" value="Gerente"> Gerente</label>
+<label><input type="radio" name="cargo" value="Atendente"> Atendente</label>
+
+
+
+<select name="estado">
+  <option value="sp">São Paulo</option>
+  <option value="rj">Rio de Janeiro</option>
+  <option value="mg">Minas Gerais</option>
+</select>
+
+
+
+<textarea name="mensagem" rows="4" cols="30"></textarea>
+
+
+<button type="submit">Enviar</button>
+
+
+<label for="email">E-mail:</label>
+<input type="email" id="email" name="email">
+
+
+
+<fieldset>
+  <legend>Informações pessoais</legend>
+  <label for="nome">Nome:</label>
+  <input type="text" id="nome" name="nome">
+</fieldset>
+
+
+    
+</body>
+</html>
